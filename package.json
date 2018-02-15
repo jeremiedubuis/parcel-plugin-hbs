@@ -1,0 +1,12 @@
+{
+  "name": "parcel-plugin-hbs",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:jeremiedubuis/parcel-plugin-hbs.git",
+  "author": "Jérémie Dubuis <jeremie.dubuis@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "handlebars": "^4.0.11",
+    "parcel-bundler": "^1.5.1"
+  }
+}
