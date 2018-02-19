@@ -24,3 +24,16 @@ const data = {
 };
 document.body.innerHTML = myTemplate(data);
 ```
+
+## Configuration
+
+.parcelrc file is supported to change Handlebars instance name (to avoid conflicts), in this example
+we will replace all calls to Handlebars.template by Handlebars2.template
+
+```json
+{
+    "hbs": {
+        "instanceName": "Handlebars2"
+    }
+}
+```
